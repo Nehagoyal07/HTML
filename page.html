@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+    <title>survey page</title>
 </head>
 <body>
-    <h4></h4>
+    <h3>SURVEY FOR CODERS</h3>
     
     <form>
         <form action = "/action.php">
@@ -14,20 +14,67 @@
             <br>
             <input type="password" placeholder="password">
             <br>
-            <pre>
-                Gender
+            <h4>Gender</h4> 
                 <label for="M">
-                    <input type="radio" name="Male" class="gender" id="101">Male
+                    <input type="radio" name="Male" name="gender" id="101">Male
                 </label>
 
                 <label for="F">
-                    <input type="radio" name="Female" class="gender" id="102">Female
+                    <input type="radio" name="Female" name="gender" id="102">Female
                 </label>
 
                 <label for="O">
-                    <input type="radio" name="Others" class="gender" id="103">Others
+                    <input type="radio" name="Others" name="gender" id="103">Others
                 </label>
-            </pre>
+
+            <h4>Prefered Language</h4>
+            <label for="JS">
+                <input type="checkbox" value="JS" name="lang" id="501">JS
+            </label>
+            <br>
+
+            <label for="JAVA">
+                <input type="checkbox" value="JAVA" name="lang" id="502">JAVA
+            </label>
+            <br>
+
+            <label for="C++">
+                <input type="checkbox" value="C++" name="lang" id="503">C++
+            </label>
+            <br>
+
+            <label for="PYTHON">
+                <input type="checkbox" value="PYTHON" name="lang" id="504">PYTHON
+            </label>
+            <br>
+
+            <h4>Select your city</h4>
+            <select name="city">
+                <option value="Select">Select</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Banglore">Banglore</option>
+            </select>
+            <br>
+            <br>
+            <input type="text" placeholder="Share your experience" rows="5">
+            <br>
+            <br>
+            <input type="feedback" id="108" placeholder="please share your feedback">
+            <br>
+            <br>
+
+            <input type="submit" value="Submit">
+
+            <h5>Some quick links</h5>
+            <a href="https://github.com/" target="_main"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GITHUB" height="100"></a>
+            <a href="https://www.youtube.com/" target="_main"><img src="https://t3.ftcdn.net/jpg/04/74/05/94/360_F_474059464_qldYuzxaUWEwNTtYBJ44VN89ARuFktHW.jpg" alt="YOUTUBE" height="100"></a>
+            <a href="https://www.linkedin.com/feed/" target="_main"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" alt="LINKEDIN" height="100"></a>
+            <a href="https://www.instagram.com/" target="_main"><img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png" alt="INSTAGRAM" height="100"></a>
+
+            <h3>THANKYOU FOR THE SURVEY</h3>
+
 
         </form>   
      </form>
